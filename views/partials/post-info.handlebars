@@ -1,17 +1,10 @@
-<article class="post">
-    <div class="whole-post">
-        <div class="info-section">
-            <div class="post-name">
-                <a href="/post/{{id}}" class="links">{{title}}</a>
-            </div>
-            <div class="created-by">
-                <p id="comment-subtitle">
-                    Posted by <b>{{user.username}} </b> on <b>{{formatDate created_at}}</b>
-                </p>
-            </div>
-        </div>
-        <div class="content-section">
-            <p>{{content}}</p>
-        </div>
-    </div>
-</article>
+
+ <article class="post container row align-items-start p-3 text-info-emphasis bg-info-subtle border border-info-subtle rounded-3">
+      <div class="title fs-1">
+        <span ><a href="/post/{{id}}">{{title}}</a></span><span style="float:right">Posted by {{user.username}} on {{formatDate created_at}}</span><br>
+        <span class="commentNum fs-4" style="float:right">{{comments.length}} {{format_plural "comment" comments.length}}</span>
+      </div>
+      <div class = "content fs-5">
+          <p>{{post_text}}</p>
+      </div>
+    </article>

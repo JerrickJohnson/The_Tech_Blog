@@ -2,23 +2,26 @@
     <div class="form-heading">
         <h1>Log In</h1>
     </div>
-    <div class="form-section">
-        <form class="login-form">
-            <div>
-                <label for="username-login">Username</label>
-                <input type="text" class="entry-field" id="username-login" />
-            </div>
-            <div>
-                <label for="password-login">Password</label>
-                <input type="password" class="entry-field" id="password-login" />
-            </div>
-            <div>
-                <button type="submit" class="login-signup-btn">Log In!</button>
-            </div>
-        </form>
-    </div>
+ 
+   <div class="container">   
+        <form class="login-form p-3 text-info-emphasis bg-info-subtle border border-info-subtle rounded-3">
 
-    <a href="/signup" class="sign-in-link">sign up instead</a>
+  <div class="mb-3">
+    <label for="email-login" class="form-label">Email</label>
+    <input type="text" class="form-control" id="email-login">
+  </div>
+  <div class="mb-3">
+    <label for="password-login" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password-login">
+  </div>
+  <div>
+     <button type="submit" class="login-signup-btn">Log In!</button>
+  </div> 
+  
+ <a href="/signup" class="sign-in-link">sign up instead</a>
+
+        </form>
+        </div>  
 </section>
 
 <script src="/js/login.js"></script>
