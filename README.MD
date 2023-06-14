@@ -61,7 +61,7 @@ To allow Techies to blog about anything tech
 https://boiling-coast-20367.herokuapp.com/
 
 ## Screenshots
-![screenshot](./public/images/TechBlogScreen.png)
+![screenshot](./public/images/TechBlogScreen.PNG)
 
 
 ## Description
