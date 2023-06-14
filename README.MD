@@ -58,7 +58,7 @@ The Tech Blog
 To allow Techies to blog about anything tech
 
 ## LiveLink
-
+https://boiling-coast-20367.herokuapp.com/
 
 ## Screenshots
 ![screenshot](./public/images/TechBlogScreen.png)
